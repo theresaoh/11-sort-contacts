@@ -1,3 +1,5 @@
 def sort_contacts(param):
-    # code here
-    return ""
+    result = []
+    for i in sorted (param.keys()) :  
+        result.append((i,) + param[i])
+    return result
